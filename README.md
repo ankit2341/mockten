@@ -1,8 +1,8 @@
 # mockten flight booking system
 
-#endpoints
+# endpoints
 
-POST
+# POST
 /api/register
 This endpoint should allow users to register.
 
@@ -11,14 +11,14 @@ body:{ name:String,email:String,password:String}
 
 response:{"msg":"user registred"}
 
-POST
-/api/login
-This endpoint should allow users to login.
+# POST
+- /api/login
+- This endpoint should allow users to login.
 
-to post:- 
+- to post:- 
 body:{email:String,password:String}
 
-response:{"msg":"user found"} or {"msg":"new user or wrong credentials"}
+- response:{"msg":"user found"} or {"msg":"new user or wrong credentials"}
 
 GET
 /api/flights
